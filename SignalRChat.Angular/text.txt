@@ -1,0 +1,11 @@
+angular.json
+browserslist
+node_modules
+package.json
+package-lock.json
+setupJest.ts
+src
+text.txt
+tsconfig.json
+tsconfig.spec.json
+tslint.json

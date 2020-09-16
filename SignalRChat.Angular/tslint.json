@@ -1,0 +1,70 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+    "array-type": false, // true,
+    "arrow-parens": true,
+    "deprecation": {
+      "severity": "warning"
+    },
+    "component-class-suffix": false,
+    "contextual-lifecycle": true,
+    "directive-class-suffix": true,
+    "directive-selector": [true, "attribute", "app", "camelCase"],
+    "component-selector": [
+      true,
+      "element",
+      ["app", "page", "component", "ghp"],
+      "kebab-case"
+    ],
+    // "import-blacklist": [true, "rxjs/Rx", "lodash"],
+    "interface-name": true,
+    "max-classes-per-file": false, // [true, 1],
+    "max-line-length": false, // [true, 80],
+    "member-access": true,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+    ],
+    "no-consecutive-blank-lines": true,
+    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+    "no-empty": false,
+    "no-implicit-dependencies": [
+      true,
+      [
+        "@Assets"
+      ]
+    ],
+    "no-inferrable-types": false, // [true, "ignore-params"],
+    "no-non-null-assertion": true,
+    "no-redundant-jsdoc": true,
+    "no-string-literal": false,
+    "no-submodule-imports": false,
+    "no-switch-case-fall-through": true,
+    "no-var-requires": true,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-sort-keys": true,
+    "ordered-imports": true,
+    "quotemark": [true, "double"],
+    "trailing-comma": false,
+    "no-conflicting-lifecycle": true,
+    "no-host-metadata-property": true,
+    "no-input-rename": true,
+    "no-inputs-metadata-property": true,
+    "no-output-native": true,
+    "no-output-on-prefix": true,
+    "no-output-rename": true,
+    "no-outputs-metadata-property": true,
+    "template-banana-in-box": true,
+    "template-no-negated-async": true,
+    "use-lifecycle-interface": true,
+    "use-pipe-transform-interface": true
+  },
+  "rulesDirectory": ["codelyzer"]
+}
