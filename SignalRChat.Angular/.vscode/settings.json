@@ -1,0 +1,40 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#068f5e",
+    "activityBar.activeBorder": "#7908b8",
+    "activityBar.background": "#068f5e",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#7908b8",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#045e3e",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#068f5e",
+    "titleBar.activeBackground": "#045e3e",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#045e3e99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#045e3e",
+  "files.exclude": {},
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false
+  },
+  "files.eol": "\n",
+  "workbench.settings.useSplitJSON": true,
+  "editor.matchBrackets": "always",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "tslint.configFile": "./tslint.json",
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "workbench.list.openMode": "doubleClick",
+  "html.format.wrapAttributes": "preserve"
+}
