@@ -1,3 +1,12 @@
 <div>
-chat
+  <br />
+  <input #textbox type="text" [(ngModel)]="message" required>
+
+  <button (click)="sendMessage()">Send</button>
+
+  <div *ngIf="messages.length > 0">
+    <div *ngFor="let msg of messages">
+      <span style="display: 'block'"> {{msg}} </span>
+    </div>
+  </div>
 </div>
